@@ -212,7 +212,9 @@ p{
 }
 
 .menu--social {
-    gap: 1rem;
+    gap: 10rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn {
@@ -276,9 +278,11 @@ main {
     justify-content: flex-start;
     align-items: center;
     gap: 1.25rem;
-    padding: 6.25rem 1rem 2rem 1rem;
+    padding-top: 64px;
+    /* padding: 6.25rem 1rem 2rem 1rem; */
     background: var(--secondary-bg-color);
     margin-top: -5.5rem;
+    /* padding: 20px; */
 }
 
 .skills h2 {
@@ -311,16 +315,26 @@ main {
     height: 7.4rem;
 }
 
+.projects {
+    padding: 115px;
+}
+
+.projects h2 {
+    height: 137px;
+}
+
 .projects__container {
+    padding: 10px;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 .projects__card{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 4rem;
+    padding: 3px;
 }
 
 .card__title {
@@ -328,8 +342,8 @@ main {
 }
 
 .card__cover{
-    width: 100%;
-    border-radius: 0.5rem;
+    width: 70%;
+    border-radius: 1.5rem;
     object-fit: cover;
     object-position: center;
 }
@@ -337,9 +351,9 @@ main {
 .card__body {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-start;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .card__description {
@@ -398,6 +412,10 @@ main {
     align-items: flex-start;
     justify-content: flex-start;
     gap: 2rem;
+}
+
+.about__container2 {
+    display: flex;
 }
 
 .about__photo {
@@ -491,7 +509,9 @@ main {
 }
 
 .contact p {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact.btn {
@@ -540,19 +560,20 @@ footer p {
         padding: 8rem 6rem 4rem 6rem;
     }
     .contact {
-        padding: 6rem;
+        padding: 1rem;
     }
-    .contact p {
+    /* .contact p {
         width: 80%;
-    }
+    } */
     .main__constainer {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        gap: 35px;
     }
     .skills{
         padding: 6.25rem 6rem 2rem 6rem;
-        margin-top: -6rem;
+        margin-top: -3rem;
     }
     footer {
         margin: 0;
@@ -614,7 +635,7 @@ footer p {
     .skills {
         flex-direction: row;
         justify-content: space-around;
-        padding: 16rem 6rem 4rem;
+        padding: 3rem 7rem 3rem;
     }
     .skills h2 {
         font-size: 3rem;
@@ -643,7 +664,7 @@ footer p {
         font-size: 6.25rem;
     }
     h2{
-        font-size: 4.5rem;
+        font-size: 5.5rem;
     }
     h3{
         font-size: 3.25rem;
@@ -655,6 +676,6 @@ footer p {
         padding: 12rem 15rem 2rem;
     }
     .skills, .projects, .about{
-        padding: 10rem 15rem 4rem;
+        padding: 5rem 10rem 5rem;
     }
 }

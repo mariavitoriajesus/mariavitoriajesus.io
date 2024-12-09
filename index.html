@@ -10,6 +10,7 @@
     <title>Maria Vitória portifólio</title>
 </head>
 <body>
+    <!-- HEADER -->
     <header class="header">
         <nav class="header__nav">
             <ul class="menu menu--principal">
@@ -56,6 +57,8 @@
       
 
     </header>
+
+    <!-- NAV HEADER -->
     <nav class="nav--mobile">
         <ul class="menu menu--mobile">
             <li class="menu__item">
@@ -88,25 +91,26 @@
         </ul>
     </nav>
 
+    <!-- MAIN -->
     <main>
        <div class="main__constainer">
         <h1><b>Soluções Criativas &</b> Desenvolvimento back-end</h1>
         <p>Maria Viória Jesus, Brasília-DF, Desenvolvedora back-end júnior.</p>
         <ul class="menu menu--social">
             <li>
-                <a href="menu__link">
+                <a href="https://github.com/mariavitoriajesus">
                     <i class="menu__icon bi bi-github"></i>
                 </a>
             </li>
 
             <li>
-                <a href="menu__link">
+                <a href="www.linkedin.com/in/mariavitoriajesus">
                     <i class="menu__icon bi bi-linkedin"></i>
                 </a>
             </li>
 
             <li>
-                <a href="menu__link">
+                <a href="https://www.instagram.com/">
                     <i class="menu__icon bi bi-instagram"></i>
                 </a>
             </li>
@@ -119,10 +123,11 @@
        </div>
 
        <div class="main__container2">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/HXKz2-Sohfo?si=OQiyBFKhAQ2AR5IX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/HXKz2-Sohfo?si=OQiyBFKhAQ2AR5IX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
        </div>
     </main>
 
+    <!-- SECTION SKILLS -->
     <section class="skills">
         <h2>Conhecimentos nas tecnologias</h2>
         <ul class="skills__list">
@@ -135,7 +140,7 @@
             </li>
 
             <li class="skills__itens">
-                <img class="skills__logo" src="Assests/img/icons/kotlinlang-icon.svg" alt="Logo Kotlin">
+                <img class="skills__logo" src="Assests/img/icons/angular-icon.svg" alt="Logo Angular">
             </li>
 
             <li class="skills__itens">
@@ -144,52 +149,55 @@
         </ul>
     </section>
 
+    <!-- SECTION PROJECTS -->
     <section id="projects" class="projects">
         <h2>Projetos</h2>
         <div class="projects__container">
 
+     <!-- PROJETO LOCAL PETS             -->
         <div class="projects__card">
-            <img class="card__cover" src="Assests/img/projects/josisbox.jpg" alt="Screen Josi's Box">
+            <img class="card__cover" src="Assests/img/projects/LocalPets/paginaLogin.png" alt="Screen Josi's Box">
             <div class="card__body">
-                <h3 class="card__title">Josi's Box ecommerce</h3>
-                <p class="clard__description">Ecommerce de Livros</p>
+                <h3 class="card__title">LocalPet's</h3>
+                <p class="clard__description">Serviço de ratreamento animal</p>
                 <ul class="card__list">
-                    <li class="card__item">Listagem de favoritos</li>
-                    <li class="card__item">Carrinho de compras</li>
-                    <li class="card__item">Filtragem por preço e catgoria</li>
+                    <li class="card__item">Listagem de planos</li>
+                    <li class="card__item">Página contando a história da loja</li>
+                    <li class="card__item">Página de apresentação</li>
                 </ul>
 
                 <ul class="skills__list">
                     <li class="skills__itens">
-                        <img class="skills__logo" src="Assests/img/icons/angular-icon.svg" alt="Logo Angular">
+                        <img class="skills__logo" src="Assests/img/icons/html-icon.svg" alt="Logo Html">
                     </li>
         
                     <li class="skills__itens">
-                        <img class="skills__logo" src="Assests/img/icons/java-icon.svg" alt="Logo Java">
+                        <img class="skills__logo" src="Assests/img/icons/css-icon.svg" alt="Logo CSS">
                     </li>
         
                     <li class="skills__itens">
-                        <img class="skills__logo" src="Assests/img/icons/kotlinlang-icon.svg" alt="Logo Kotlin">
+                        <img class="skills__logo" src="Assests/img/icons/js-icon.svg" alt="Logo JavaScript">
                     </li>
         
-                    <li class="skills__itens">
+                    <!-- <li class="skills__itens">
                         <img class="skills__logo" src="Assests/img/icons/typescriptlang-icon.svg" alt="Logo TypeScript">
-                    </li>
+                    </li> -->
                 </ul>
 
                 <div class="card__buttons">
                     <button class="btn btn--primary">
-                        <span>Prévia</span>
+                        <span><a href="https://mariavitoriajesus.github.io/Local-Pets/">Prévia</a></span>
                         <i class="bi bi-arrow-up-right"></i>
                     </button>
                     <button class="btn">
-                        <span>Repositório</span>
+                        <span><a href="https://github.com/mariavitoriajesus/Local-Pets.git">REPOSITÓRIO</a></span>
                     </button>
                 </div>
             </div>
         </div>
 
-        <div class="projects__card card--reverse">
+        <!-- PROXIMOS  PROJETOS -->
+        <!-- <div class="projects__card card--reverse">
             <img class="card__cover" src="Assests/img/projects/archstil.jpg" alt="Capa Archstil">
             <div class="card__body">
                 <h3 class="card__title">Arvhstil Blog</h3>
@@ -228,9 +236,9 @@
                     </button>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="projects__card">
+        <!-- <div class="projects__card">
             <img class="card__cover" src="Assests/img/projects/games-store.jpg" alt="Capa Games Store">
             <div class="card__body">
                 <h3 class="card__title">Games Store</h3>
@@ -269,7 +277,7 @@
                     </button>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <a href="https://github.com/mariavitoriajesus">
             <button class="btn btn--primary">
@@ -280,15 +288,18 @@
         </div>
     </section>
 
+    <!-- SECTION ABOUT -->
     <section id="sobre" class="about">
         <div class="about__container">
             <img class="about__photo" src="Assests/img/avatar.jpeg" alt="">
             <div class="about__description">
                 <h2>Sobre mim...</h2>
-                <p>Maria Vitória Jesus, apaixonada por livros e desenhos, meu primeiro "Hello Word" foi em java, uma linguagem que já me acompanha há muito tempo, uma linguagem que foi minha primeira e continua sendo a minha até o momento. Atualmente sou formada em ADS(Análise e Desenvolvimento de Sistema) e programo em Java e Kotlin, possuindo conhecimento em Angular e TypeScript. </p>
+                <p>Sou formada de Análise e Desenvolvimento de Sistemas, apaixonado por tecnologia e inovação. Ao longo da minha jornada acadêmica, desenvolvi habilidades sólidas em programação, desenvolvimento de software e análise de sistemas. Tenho experiência com diversas linguagens de programação, como Java, TypeScript, JavaScript, e Angular, e estou sempre em busca de aprender novas tecnologias e frameworks que melhorem a eficiência e a qualidade dos projetos em que estou envolvido.</p>
+                <p>Além da parte técnica, sou uma pessoa criativa, colaborativa e com facilidade para trabalhar em equipe, sempre buscando soluções inovadoras para os desafios que surgem. Gosto de me manter atualizado sobre as tendências do mercado de tecnologia e sou motivado a aplicar os conhecimentos adquiridos em projetos reais, seja em estágios ou em projetos pessoais.</p>
+                <p>Meu foco é continuar evoluindo como desenvolvedor e encontrar soluções práticas para melhorar a experiência do usuário e a desempenho dos sistemas.</p>
                 <div class="about__icons">
                     <i class="bi bi-translate"></i>
-                    <span>Inglês: Intermediário | Francês: Intermediário</span>
+                    <span>Inglês: Técnico | Francês: Intermediário</span>
                 </div>
                 <div class="description__buttons">
                     <a href="https://www.linkedin.com/in/mariavitoriajesus/" target="_blanck">
@@ -297,11 +308,11 @@
                             <i class="bi bi-arrow-up-right"></i>
                         </button>
                     </a>
-                    <a href="">
+                    <!-- <a href="">
                         <button class="btn">
                             <span>Currículo</span>
                         </button>
-                    </a>
+                    </a> -->
                 </div>
             </div>
         </div>
@@ -315,15 +326,21 @@
                         <i class="bi bi-bank"></i>
                         <span>Faculdade Senac de Tecnologia</span>
                     </div>
-                    <div class="about__icons">
+                    <br><br>
+                    <!-- <div class="about__icons">
                         <i class="bi bi-mortarboard"></i>
                         <span>Técnico em Informatica - ETB Brasília</span>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="row2">
                     <h3>Experiências</h3>
-                    <h4>Jovem aprendiz</h4>
-                    <span>Neoenergia Brasília</span>
+                    <ul>
+                        <li> <h4>Jovem aprendiz</h4> Neoenergia Brasília </li>
+                        <br>
+                        <li> <h4>Jovem aprendiz</h4> Brasal Refrigerações </li>
+                    </ul>
+                   
+                    <span></span>
                 </div>
             </div>            
         </div>
@@ -332,22 +349,21 @@
             <div id="accordion">
                 <div class="accordion__itens  active">
                     <button class="accordion__header">
-                        <span>Formação Java Developer</span>
+                        <span>Bootcamp - Desenvolvimento Java com IA</span>
                         <i class="bi bi-caret-down-fill"></i>
                     </button>
                     <div class="acordion__body">
                         <p>
-                            Digital Innovation One. 76hs
+                            Digital Innovation One. 60 horas
                         </p>
                         <p>
-                            Lorem ipsum volutpat ipsum at senectus etiam mattis, 
-                            eu dictum lectus dolor mi sagittis donec, varius quisque egestas 
-                            nulla massa lectus. molestie eros est elementum, scelerisque mi.
+                            Bootcamp intensivo de Desenvolvimento Java com foco em Inteligência Artificial, onde aprimorei habilidades em Java, Spring Boot e IA. Durante o curso, aprendi a construir aplicações com Spring Boot, criando APIs e serviços web, e a integrar conceitos de IA, como aprendizado de máquina e análise de dados. Essa experiência me capacitou a criar soluções mais eficientes e inovadoras em Java, com ênfase em escalabilidade e automação, além de me proporcionar uma visão mais ampla das demandas do mercado de tecnologia.
                         </p>
                     </div>
                 </div>
+                <br><br>
 
-                <div class="accordion__itens">
+                <!-- <div class="accordion__itens">
                     <button class="accordion__header">
                         <span>Formação Java Developer</span>
                         <i class="bi bi-caret-down-fill"></i>
@@ -363,8 +379,9 @@
                         </p>
                     </div>
                 </div>
+                <br><br> -->
 
-                <div class="accordion__itens">
+                <!-- <div class="accordion__itens">
                     <button class="accordion__header">
                         <span>Formação Java Developer</span>
                         <i class="bi bi-caret-down-fill"></i>
@@ -379,11 +396,14 @@
                             nulla massa lectus. molestie eros est elementum, scelerisque mi.
                         </p>
                     </div>
-                </div>                
+                </div>                 -->
+                <!-- <br><br> -->
+
             </div>
         </div>
     </section>
 
+    <!-- SECTION CONTATO -->
     <section id="contato" class="contact">
         <h2>Contate-me</h2>
         <p>
@@ -404,19 +424,26 @@
                 </a>
             </li>
             <li>
-                <a class="menu__link" href="" target="_blank">
+                <a class="menu__link" href="https://www.instagram.com/" target="_blank">
                     <i class="menu__icon bi bi-instagram"></i>
                     <span>Instagram</span>
                 </a>
             </li>
+            <li>
+                <a class="menu__link" href=">mariavitoria.jesus2003@gamil.com" target="_blank">
+                    <i class="menu__icon bi bi-envelope-heart"></i>
+                    <span>Email</span>
+                </a>
+            </li>
         </ul>
-        <a href="mariavitoria.jesus2003@gmail.com">
+        <!-- <a href="mariavitoria.jesus2003@gmail.com">
             <button class="btn vtn--primary">
                 <span class="email">mariavitoria.jesus2003@gamil.com</span>
             </button>
-        </a>
+        </a> -->
     </section>
 
+    <!-- FOOTER -->
     <footer>
         <p>
             © 2024. Portfólio desenvolvido para fins demostrativos de conhecimento e habilidades por 
@@ -425,6 +452,5 @@
     </footer>
 
     <script src="Assests/js/script.js"></script>
-
 </body>
 </html>
