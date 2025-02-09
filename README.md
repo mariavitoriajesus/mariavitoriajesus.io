@@ -1,16 +1,40 @@
-<h1>
-    <span>Construindo meu Portfólio Front-end do Zero</span>
-</h1>
+# 🌐 Construindo meu Portfólio Front-end do Zero  
 
-Repositório desenvolvido para fins de demosntração de conhecimento em HTML, CSS e JavaScript.
-https://mariavitoriajesus.github.io/mariavitoriajesus.io/
+![GitHub Deploy](https://img.shields.io/github/deployments/mariavitoriajesus/mariavitoriajesus.io/github-pages)  
 
-## Objetivo
-Construir meu Primeiro Portfólio Front-end do Zero.
+### 🔗 **Acesse o projeto online**  
+➡️ [mariavitoriajesus.github.io/mariavitoriajesus.io](https://mariavitoriajesus.github.io/mariavitoriajesus.io/)  
 
-## Tecnologias
-[![JavaScript](https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript&logoColor=30A3DC)]()
-[![HTML5](https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5&logoColor=E94D5F)]() 
-[![CSS3](https://img.shields.io/badge/CSS3-000?style=for-the-badge&logo=css3&logoColor=30A3DC)]()
+## 📌 Descrição  
+Este repositório contém meu **portfólio pessoal**, desenvolvido para demonstrar meus conhecimentos em **HTML, CSS e JavaScript**. Ele apresenta informações sobre mim, meus projetos e formas de contato.  
 
-<div align="center">Feito com 💙 por <a href="https://github.com/mariavitoriajesus">Maria Vitória Jesus</a>.</div>
+## 🎯 Objetivo  
+Criar meu **primeiro portfólio front-end do zero**, aplicando conceitos de desenvolvimento web e responsividade.  
+
+## 🚀 Tecnologias Utilizadas  
+- **HTML5** 🟠  
+- **CSS3** 🟣  
+- **JavaScript** 🟡  
+
+## 🛠️ Funcionalidades  
+✔ **Página de apresentação** com informações pessoais  
+✔ **Lista de projetos** desenvolvidos com links para os repositórios  
+✔ **Design responsivo** para melhor experiência em diferentes dispositivos  
+✔ **Hospedagem via GitHub Pages**  
+
+## 📂 Como Executar Localmente  
+
+1️⃣ **Clone o repositório**  
+```sh
+git clone https://github.com/mariavitoriajesus/mariavitoriajesus.io.git
+cd mariavitoriajesus.io
+```
+2️⃣ **Abra o arquivo `index.html` no navegador**  
+
+## 🖼️ Screenshot  
+*Adicione aqui uma captura de tela do portfólio*  
+
+## 📢 Contribuição  
+Caso tenha sugestões de melhorias, fique à vontade para abrir uma **issue** ou enviar um **pull request**!  
+
+💙 Feito com 💙 por [Maria Vitória Jesus](https://github.com/mariavitoriajesus)  
